@@ -6,18 +6,6 @@ body{
     font-family: 'VT323', monospace;
 }
 
-nav{
-  border-bottom: 1px solid #dddddd;
-  padding: 8px;
-
-}
-
-
- nav tr th {
-  padding: 8px;
-  justify-content: center;
-  text-align: center;
-}
 
  th{
     font-size:30px;
