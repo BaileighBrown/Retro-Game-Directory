@@ -7,7 +7,7 @@ body{
 }
 
 nav{
-  border: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
   padding: 8px;
 
 }
