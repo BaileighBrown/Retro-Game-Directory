@@ -118,19 +118,31 @@ left: 13.3rem;
     width: 310px;
 }
 
-.gamesColumn{
-     width: 500px;
+.gamesColumn{ 
+  position: absolute;
+  width: 500px;
+  overflow: auto;
 }
 
-img{
-  position: relative;
-  margin-top: 2rem;
-  display: inline-block;
-  vertical-align: top;
-  height: 10rem;
-  width: 10rem;
+.gamesColumn #rocks{
+  top: 0;
+  left: 0;
+  width: 90px;
+  height: 90px;
+  vertical-align: bottom;
+  position: absolute;
+  bottom: 0;
 }
 
+.gamesColumn #breakOut{
+  top: 0;
+  left: 100px;
+  width: 90px;
+  height: 90px;
+  vertical-align: bottom;
+  position: absolute;
+  bottom: 0;
+}
 
 .pixelIcons{
   width: 160px;
